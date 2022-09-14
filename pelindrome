@@ -1,0 +1,13 @@
+var S=12321;
+str="";
+var sum=str+S;
+var main="";
+
+for(var i=sum.length-1;i>=0;i--){
+    main=main+sum[i];
+}
+if(S==main){
+    console.log("Possible!");
+}else{
+    console.log("Not possible!");
+}
